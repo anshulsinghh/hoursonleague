@@ -1,0 +1,6 @@
+This program uses the following packages:
+Cassiopeia - used to access the Riot Games API)
+Datetime - used for time calculations)
+Math - used for flooring numbers)
+Arrow - used for time calculations)
+Os - used to exit the script when errors occur)
