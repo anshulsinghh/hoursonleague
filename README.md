@@ -1,9 +1,9 @@
 # Hours on League
 ## Background
 Hours on League is a script which allows a user to check the amount of hours that a summoner has spent playing League of Legends within the last week. The program asks for the user to input a summoner name (a League of Legends username), it then prints the number of hours that the user spent playing League of Legends within the last 7 days. It prints a message advising the user on how to improve productivity, and then fun facts regarding the amount of League games that they played within the last week. The script aims to help users improve their productivity, as each game of League is around 30 minutes - and the game can be quite addicting.
-"\n",
-"A sample output of the script is below. I ran it with my own summoner name (robbib):\n",
-"```\n",
+
+A sample output of the script is below. I ran it with my own summoner name (robbib):
+```
 "> python3 script.py\n",
 "Enter a Summoner Name: robbib\n",
 "Making call: https://na1.api.riotgames.com/lol/summoner/v4/summoners/by-name/robbib\n",
@@ -29,7 +29,7 @@ Hours on League is a script which allows a user to check the amount of hours tha
 "- Flown from LA to NYC 1.0 times\n",
 "- Read The Great Gatsby 2.0 times\n",
 "- Watched Avengers: Endgame 1.0 times\n",
-"```\n",
+```
 "\n",
 "## How it Works\n",
 "Hours on League takes in a username and then accesses the Riot Games API (Riot Games owns League of Legends) through a package called Cassiopeia. Cassiopeia makes it easy to set up the API, and enables Hours on League to access the individual summoner and their match history. Hours on League then traverses the match history to find the amount of league played within the last week, and prints out the time spent on league, a message on what to improve, and fun facts about how much league was played by the given summoner.\n",
