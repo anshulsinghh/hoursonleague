@@ -4,31 +4,31 @@ Hours on League is a script which allows a user to check the amount of hours tha
 
 A sample output of the script is below. I ran it with my own summoner name (robbib):
 ```
-"> python3 script.py\n",
-"Enter a Summoner Name: robbib\n",
-"Making call: https://na1.api.riotgames.com/lol/summoner/v4/summoners/by-name/robbib\n",
-"Making call: https://na1.api.riotgames.com/lol/match/v4/matchlists/by-account/TLLXeUnoyHbj0WkN5xT4SK6GCKaYG0rJrNFmihveHmuGiKI?beginIndex=0&endIndex=100\n",
-"Making call: https://ddragon.leagueoflegends.com/realms/na.json\n",
-"Making call: https://na1.api.riotgames.com/lol/match/v4/matches/3230701666\n",
-"Making call: https://na1.api.riotgames.com/lol/match/v4/matches/3230609466\n",
-"Making call: https://na1.api.riotgames.com/lol/match/v4/matches/3229730442\n",
-"Making call: https://na1.api.riotgames.com/lol/match/v4/matches/3229509936\n",
-"Making call: https://na1.api.riotgames.com/lol/match/v4/matches/3229461269\n",
-"Making call: https://na1.api.riotgames.com/lol/match/v4/matches/3228642180\n",
-"Making call: https://na1.api.riotgames.com/lol/match/v4/matches/3228581586\n",
-"Making call: https://na1.api.riotgames.com/lol/match/v4/matches/3228492258\n",
-"Making call: https://na1.api.riotgames.com/lol/match/v4/matches/3228256571\n",
-"Making call: https://na1.api.riotgames.com/lol/match/v4/matches/3227972456\n",
-"Making call: https://na1.api.riotgames.com/lol/match/v4/matches/3227670574\n",
-"\n",
-"You have spent 5.0 hours and 30.0 minutes playing 11 matches of league in the last 7 days.\n",
-"\n",
-"🙂  Looks like you have been pretty productive last week. You might want to limit your hours for next week to increase productivity even more!\n",
-"\n",
-"In the time you spent on league, here's some things you could have done:\n",
-"- Flown from LA to NYC 1.0 times\n",
-"- Read The Great Gatsby 2.0 times\n",
-"- Watched Avengers: Endgame 1.0 times\n",
+> python3 script.py
+Enter a Summoner Name: robbib
+Making call: https://na1.api.riotgames.com/lol/summoner/v4/summoners/by-name/robbib
+Making call: https://na1.api.riotgames.com/lol/match/v4/matchlists/by-account/TLLXeUnoyHbj0WkN5xT4SK6GCKaYG0rJrNFmihveHmuGiKI?beginIndex=0&endIndex=100
+Making call: https://ddragon.leagueoflegends.com/realms/na.json
+Making call: https://na1.api.riotgames.com/lol/match/v4/matches/3230701666
+Making call: https://na1.api.riotgames.com/lol/match/v4/matches/3230609466
+Making call: https://na1.api.riotgames.com/lol/match/v4/matches/3229730442
+Making call: https://na1.api.riotgames.com/lol/match/v4/matches/3229509936
+Making call: https://na1.api.riotgames.com/lol/match/v4/matches/3229461269
+Making call: https://na1.api.riotgames.com/lol/match/v4/matches/3228642180
+Making call: https://na1.api.riotgames.com/lol/match/v4/matches/3228581586
+Making call: https://na1.api.riotgames.com/lol/match/v4/matches/3228492258
+Making call: https://na1.api.riotgames.com/lol/match/v4/matches/3228256571
+Making call: https://na1.api.riotgames.com/lol/match/v4/matches/3227972456
+Making call: https://na1.api.riotgames.com/lol/match/v4/matches/3227670574
+
+You have spent 5.0 hours and 30.0 minutes playing 11 matches of league in the last 7 days.
+
+🙂  Looks like you have been pretty productive last week. You might want to limit your hours for next week to increase productivity even more!
+
+In the time you spent on league, here's some things you could have done:
+- Flown from LA to NYC 1.0 times
+- Read The Great Gatsby 2.0 times
+- Watched Avengers: Endgame 1.0 times
 ```
 "\n",
 "## How it Works\n",
