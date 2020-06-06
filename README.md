@@ -38,7 +38,6 @@ In the time you spent on league, here's some things you could have done:
 - `script.py` - This is the main script for Hours on League
 - `module.py` - This contains important functions that are used by the main script
 - `test_functions.py` - This file contains tests for some functions in the module file
-- `/env` - This folder contains the virtual environment for the project. I set up the virtual environment through virtualenv. If you want to run the program using the virtual environment, just type `source env/bin/activate` in the terminal. And then run the main script by typing `python3 script.py`
 
 ## Required Libraries
 This project uses the following packages:
