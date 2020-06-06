@@ -30,17 +30,17 @@ In the time you spent on league, here's some things you could have done:
 - Read The Great Gatsby 2.0 times
 - Watched Avengers: Endgame 1.0 times
 ```
-"\n",
-"## How it Works\n",
-"Hours on League takes in a username and then accesses the Riot Games API (Riot Games owns League of Legends) through a package called Cassiopeia. Cassiopeia makes it easy to set up the API, and enables Hours on League to access the individual summoner and their match history. Hours on League then traverses the match history to find the amount of league played within the last week, and prints out the time spent on league, a message on what to improve, and fun facts about how much league was played by the given summoner.\n",
-"\n",
-"## File Structure\n",
-"- `script.py` - This is the main script for Hours on League\n",
-"- `module.py` - This contains important functions that are used by the main script\n",
-"- `test_functions.py` - This file contains tests for some functions in the module file\n",
-"- `/env` - This folder contains the virtual environment for the project. I set up the virtual environment through virtualenv. If you want to run the program using the virtual environment, just type `source env/bin/activate` in the terminal. And then run the main script by typing `python3 script.py`\n",
-"\n",
-"## Required Libraries\n",
+
+## How it Works
+"Hours on League takes in a username and then accesses the Riot Games API (Riot Games owns League of Legends) through a package called Cassiopeia. Cassiopeia makes it easy to set up the API, and enables Hours on League to access the individual summoner and their match history. Hours on League then traverses the match history to find the amount of league played within the last week, and prints out the time spent on league, a message on what to improve, and fun facts about how much league was played by the given summoner.
+
+## File Structure
+- `script.py` - This is the main script for Hours on League
+- `module.py` - This contains important functions that are used by the main script
+- `test_functions.py` - This file contains tests for some functions in the module file
+- `/env` - This folder contains the virtual environment for the project. I set up the virtual environment through virtualenv. If you want to run the program using the virtual environment, just type `source env/bin/activate` in the terminal. And then run the main script by typing `python3 script.py`
+
+## Required Libraries
 "This project uses the following packages:\n",
 "- Cassiopeia (used to access the Riot Games API)\n",
 "- Datetime (used for time calculations)\n",
