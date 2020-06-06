@@ -41,10 +41,9 @@ In the time you spent on league, here's some things you could have done:
 - `/env` - This folder contains the virtual environment for the project. I set up the virtual environment through virtualenv. If you want to run the program using the virtual environment, just type `source env/bin/activate` in the terminal. And then run the main script by typing `python3 script.py`
 
 ## Required Libraries
-"This project uses the following packages:\n",
-"- Cassiopeia (used to access the Riot Games API)\n",
-"- Datetime (used for time calculations)\n",
-"- Math (used for flooring numbers)\n",
-"- Arrow (used for time calculations)\n",
-"- Os (used to exit the script when errors occur)\n",
-"\n"
+This project uses the following packages:
+- Cassiopeia (used to access the Riot Games API)
+- Datetime (used for time calculations)
+- Math (used for flooring numbers)
+- Arrow (used for time calculations)
+- Os (used to exit the script when errors occur)
