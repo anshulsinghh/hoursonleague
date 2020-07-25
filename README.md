@@ -1,4 +1,4 @@
-<center>⌛ Hours on League</center>
+<div align="center">⌛ Hours on League</div>
 ## Background
 Hours on League is a script which allows a user to check the amount of hours that a summoner has spent playing League of Legends within the last week. The program asks for the user to input a summoner name (a League of Legends username), it then prints the number of hours that the user spent playing League of Legends within the last 7 days. It prints a message advising the user on how to improve productivity, and then fun facts regarding the amount of League games that they played within the last week. The script aims to help users improve their productivity, as each game of League is around 30 minutes - and the game can be quite addicting.
 
